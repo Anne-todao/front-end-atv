@@ -1,0 +1,35 @@
+.card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.foto {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #3498db;
+  margin-bottom: 15px;
+}
+
+.nome {
+  font-size: 1.2rem;
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+
+.cargo {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  font-weight: 500;
+}

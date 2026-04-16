@@ -1,0 +1,52 @@
+.container {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.header h1 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Novo Estilo para a Barra de Busca */
+.barraBusca {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px 25px;
+  font-size: 1.1rem;
+  border: 2px solid #ddd;
+  border-radius: 50px;
+  outline: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.barraBusca:focus {
+  border-color: #3498db;
+  box-shadow: 0 4px 12px rgba(52, 152, 219, 0.2);
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* Novo Estilo para quando a busca não achar ninguém */
+.vazio {
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #7f8c8d;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
