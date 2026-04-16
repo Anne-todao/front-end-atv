@@ -1,35 +1,35 @@
 .card {
-  background-color: #fff;
-  border-radius: 15px;
-  padding: 20px;
-  width: 220px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  width: 260px;
   text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out;
 }
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .foto {
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #3498db;
-  margin-bottom: 15px;
+  border: 4px solid #e0e0e0;
+  margin-bottom: 12px;
 }
 
 .nome {
-  font-size: 1.2rem;
-  color: #2c3e50;
-  margin-bottom: 5px;
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 8px;
 }
 
-.cargo {
-  font-size: 0.9rem;
-  color: #7f8c8d;
-  font-weight: 500;
+.texto {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 4px 0;
 }
