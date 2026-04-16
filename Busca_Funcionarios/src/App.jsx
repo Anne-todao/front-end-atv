@@ -31,7 +31,7 @@ function App() {
         {/* Input Controlado pelo Estado */}
         <input 
           type="text" 
-          placeholder="Pesquisar por nome..." 
+          placeholder="Pesquisar por nome ou cargo..." 
           className={styles.barraBusca}
           value={busca}
           onChange={(e) => setBusca(e.target.value)}
